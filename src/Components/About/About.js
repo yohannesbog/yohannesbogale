@@ -45,21 +45,30 @@ export default function About() {
         {/* <img src="" className="card-img-top" alt="..."/> */}
 
         <DiJavascript1 className="card-img-top" color='yellow' size={200} />
+        <div class="text">JavaScript</div>
+
       </div>
       <div className="card">
       <DiReact  id="js" className="card-img-top" color='powderblue' size={200} />
-      
+      <div class="text">React</div>
+
       </div>
 
       <div className="card">
       <DiHtml5 className="card-img-top" color='white' size={200} />
+      <div class="text">HTML5</div>
+
       </div>
          
       <div className="card">
       <DiCss3 className="card-img-top" color='white' size={200} />
+      <div class="text">CSS3</div>
+
       </div>
       <div className="card">
       <DiNodejsSmall className="card-img-top" color='white' size={200} />
+      <div class="text">NodeJs</div>
+
       </div>
     </div>
                 </div>
